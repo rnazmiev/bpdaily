@@ -1,0 +1,28 @@
+# Minimal Jekyll config for GitHub Pages.
+# Renders privacy.md and terms.md as HTML at clean URLs.
+#
+# Project-page hosting: final URLs look like
+#   https://rnazmiev.github.io/bpdaily/privacy/
+#   https://rnazmiev.github.io/bpdaily/terms/
+
+title: BP Daily — Legal
+description: Privacy Policy and Terms of Service for the BP Daily mobile app.
+
+# Must match the GitHub repo name exactly — Jekyll prepends this to every
+# generated URL so links work under the `/bpdaily` path.
+baseurl: /bpdaily
+url: https://rnazmiev.github.io
+
+# GitHub Pages supports a curated list of themes; "minima" ships by default
+# and gives a readable, no-nonsense look suitable for legal pages.
+theme: minima
+
+# Strip .html and .md from URLs — privacy.md → /privacy/
+permalink: /:title/
+
+# Exclude repo noise from the generated site.
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

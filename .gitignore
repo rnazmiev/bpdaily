@@ -1,0 +1,12 @@
+# Jekyll build output — rendered by GitHub Pages server-side.
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby/Bundler artefacts if anyone ever runs Jekyll locally.
+Gemfile.lock
+vendor/
+
+# OS junk
+.DS_Store
+Thumbs.db
