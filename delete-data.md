@@ -1,7 +1,7 @@
 # BP Daily — Data Deletion Request
 
 **App:** BP Daily
-**Developer:** Edinson Nazmiev
+**Developer:** Rushan Nazmiev
 
 ## What data is stored
 
